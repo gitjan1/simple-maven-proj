@@ -23,7 +23,7 @@
   </dependencies>
    <profiles>
      <profile>
-       <id>sonar</id>
+       <id>sonarqube</id>
          <activation>
            <activeByDefault>true</activeByDefault>
          </activation>
