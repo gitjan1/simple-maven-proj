@@ -9,7 +9,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'mvn -B -DskipTests clean package'
-                sh 'mvn sonar:sonar -Dsonar.login=cdeba67839ccdf52d8efc714d4ba086c5e775b14'
+                
             }
         }
         stage('Test') {
